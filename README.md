@@ -1,20 +1,60 @@
-# custom_widgets_flutter
-<<<<<<< HEAD
+# Flutter Custom Widgets Library
 
-A new Flutter project.
+A structured and scalable collection of custom Flutter widgets, utility functions, and design constants — built for maintainability, consistency, and reusability across projects.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🧱 Project Structure & Fundamentals
 
-A few resources to get you started if this is your first Flutter project:
+This library is organized around key fundamentals that improve developer efficiency and ensure consistent UI/UX:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📌 Core Concepts Used:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-A flutter reosurce library for custom wiidgets
->>>>>>> 033077364315787b764da2668c3626ec42ecb7b6
+- **Enums for UI & Logic** — Centralized enums for state, themes, and actions.
+- **Custom Themes & Styles** — App-wide theming with structured color palettes and typography.
+- **Constants** — For better maintainability:
+  - `colors.dart`
+  - `spacing.dart`
+  - `app_typography.dart`
+  - `app_icons.dart`
+  - `borders.dart`
+  - `shadows.dart`
+- **Utilities**
+  - `validators.dart`
+  - `formatters.dart`
+  - `helpers.dart` (e.g., date/time or string utils)
+
+---
+
+## 🧩 Available Custom Widgets
+
+This library includes reusable widgets to streamline Flutter UI development:
+
+### 🔹 Core UI Components:
+- `CustomAppBar`
+- `CustomButtons` (Primary, Secondary, Icon Buttons, etc.)
+- `CustomCard`
+- `CustomCheckbox`
+- `CustomChip`
+- `CustomContainer` & `CustomSizedBox`
+- `CustomDialogBox`
+- `CustomDivider`
+- `CustomImage` & `CustomIcon`
+
+### 🔹 Input & Form Components:
+- `CustomInputField`
+- `CustomSwitch`
+- `CustomSnackbar`
+- `CustomTabBar`
+- `CustomListTile`
+- `CustomText`
+
+Each widget is designed with configuration flexibility, responsive behavior, and consistent styling principles.
+
+---
+
+## 🛠️ How to Use
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/YourUsername/flutter-custom-widgets.git
