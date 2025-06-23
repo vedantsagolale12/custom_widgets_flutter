@@ -57,4 +57,4 @@ Each widget is designed with configuration flexibility, responsive behavior, and
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/YourUsername/flutter-custom-widgets.git
+   git clone https://github.com/vedantsagolale12/custom_widgets_flutter.git
