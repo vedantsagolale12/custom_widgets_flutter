@@ -39,6 +39,35 @@ enum ColorVariant {
   info,
 }
 
+// app-bar enums
+
+enum AppBarType {
+  primary,
+  secondary,
+  tertiary,
+  error,
+  success,
+  warning,
+  info,
+  transparent,
+  gradient,
+  glass, // Glassmorphism effect
+}
+
+enum AppBarSize {
+  mini, // 40px height
+  small, // 50px height
+  medium, // 60px height (default AppBar)
+  large, // 80px height
+  extraLarge, // 100px height
+}
+
+enum AppBarPosition {
+  top,
+  bottom,
+  floating, // Floating above content
+}
+
 /// Opacity levels for layering and transparency
 enum OpacityLevel { transparent, faint, light, medium, strong, opaque }
 
@@ -102,7 +131,7 @@ enum FlexAlignment {
 }
 
 /// Cross-axis alignment
-enum CrossAxisAlignment { start, center, end, stretch, baseline }
+// enum CrossAxisAlignment { start, center, end, stretch, baseline }
 
 /// Positioning types
 enum PositionType { relative, absolute, fixed, sticky }
